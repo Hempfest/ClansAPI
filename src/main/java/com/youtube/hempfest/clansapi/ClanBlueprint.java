@@ -75,7 +75,7 @@ public class ClanBlueprint extends ClanBuilder {
 
 	/**
 	 * Convert this blueprint object into a builder and get it ready
-	 * for finalization.
+	 * for finalization..
 	 * @return The finishing builder.
 	 */
 	public ClanBuilder toBuilder() {
