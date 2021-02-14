@@ -47,4 +47,5 @@ _**Table of contents:**_
     - [Misc]()
 ---
 ![](https://i.imgur.com/9Tu9JAN.png)
+
 Need back to the spigot page? ([CLICK](https://www.spigotmc.org/resources/clans-pro-1-12-1-16.87515/))
