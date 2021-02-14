@@ -6,15 +6,22 @@ import com.youtube.hempfest.clans.util.RankPriority;
 import java.util.Map;
 import java.util.UUID;
 
-public abstract class ClanBuilder {
+public class ClanBuilder {
 
-	protected abstract Map<UUID, RankPriority> getMemberList();
+	private final Map<UUID, RankPriority> memberList;
 
-	protected abstract UUID getLeader();
+	private final UUID leader;
 
-	protected abstract String getClanName();
+	private final String clanName;
 
-	protected abstract String getPassword();
+	private final String password;
+
+	protected ClanBuilder(ClanBlueprint blueprint) {
+		this.memberList = blueprint.getMemberList();
+		this.leader = blueprint.getLeader();
+		this.clanName = blueprint.getClanName();
+		this.password = blueprint.getPassword();
+	}
 
 	/**
 	 * Create the clan with the retained values from the blueprint object
@@ -23,16 +30,16 @@ public abstract class ClanBuilder {
 	 * forcefully removed.
 	 */
 	public void create() {
-		if (ClansAPI.getInstance().isInClan(getLeader())) {
-			Clan.action.removePlayer(getLeader());
+		if (ClansAPI.getInstance().isInClan(leader)) {
+			Clan.action.removePlayer(leader);
 		}
-		Clan.action.create(getLeader(), getClanName(), !getPassword().equals("none") ? getPassword() : null);
-		for (Map.Entry<UUID, RankPriority> entry : getMemberList().entrySet()) {
+		Clan.action.create(leader, clanName, !password.equals("none") ? password : null);
+		for (Map.Entry<UUID, RankPriority> entry : memberList.entrySet()) {
 			if (ClansAPI.getInstance().isInClan(entry.getKey())) {
 				Clan.action.removePlayer(entry.getKey());
 			}
-			Clan.action.joinClan(entry.getKey(), getClanName(), getPassword());
-			ClanUtil.setRank(getClan().getClanID(), entry.getKey(), entry.getValue());
+			Clan.action.joinClan(entry.getKey(), clanName, password);
+			ClansAPI.getInstance().setRank(getClan().getClanID(), entry.getKey(), entry.getValue());
 		}
 	}
 
@@ -42,7 +49,7 @@ public abstract class ClanBuilder {
 	 * @return The clan object from creation.
 	 */
 	public Clan getClan() {
-		return Clan.action.getClan(Clan.action.getClan(getLeader()));
+		return Clan.action.getClan(Clan.action.getClan(leader));
 	}
 
 	/**

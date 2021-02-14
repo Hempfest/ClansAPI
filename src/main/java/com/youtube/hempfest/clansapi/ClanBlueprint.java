@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.UUID;
 import org.bukkit.entity.Player;
 
-public class ClanBlueprint extends ClanBuilder {
+public class ClanBlueprint {
 
 	private final Map<UUID, RankPriority> memberList = new HashMap<>();
 
@@ -79,25 +79,21 @@ public class ClanBlueprint extends ClanBuilder {
 	 * @return The finishing builder.
 	 */
 	public ClanBuilder toBuilder() {
-		return this;
+		return new ClanBuilder(this);
 	}
 
-	@Override
-	public Map<UUID, RankPriority> getMemberList() {
+	protected Map<UUID, RankPriority> getMemberList() {
 		return this.memberList;
 	}
 
-	@Override
 	protected UUID getLeader() {
 		return this.leader;
 	}
 
-	@Override
 	protected String getClanName() {
 		return this.clanName;
 	}
 
-	@Override
 	protected String getPassword() {
 		return this.password != null ? this.password : "none";
 	}
