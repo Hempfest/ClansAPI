@@ -42,6 +42,7 @@ _**Table of contents:**_
         - [Messages](https://github.com/Hempfest/ClansAPI/wiki/Messages.yml)
 - [**Developers**](https://github.com/Hempfest/ClansAPI/wiki/Development)
     - [Clan Building](https://github.com/Hempfest/ClansAPI/wiki/Clan-Blueprints)
+    - [Cooldowns](https://github.com/Hempfest/ClansAPI/wiki/Clan-Cooldowns)
 ---
 - [**Official addons**]()
     - [Misc]()
