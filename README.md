@@ -41,6 +41,7 @@ _**Table of contents:**_
         - [Config](https://github.com/Hempfest/ClansAPI/wiki/Config.yml)
         - [Messages](https://github.com/Hempfest/ClansAPI/wiki/Messages.yml)
 - [**Developers**](https://github.com/Hempfest/ClansAPI/wiki/Development)
+    - [Addon Creation](https://github.com/Hempfest/ClansAPI/wiki/Creating-an-addon-w--the-API)
     - [Clan Building](https://github.com/Hempfest/ClansAPI/wiki/Clan-Blueprints)
     - [Cooldowns](https://github.com/Hempfest/ClansAPI/wiki/Clan-Cooldowns)
 ---
