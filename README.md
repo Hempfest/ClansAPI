@@ -15,7 +15,7 @@ The official API & Wiki for ClansPro
   	<dependency>
 	    <groupId>com.github.Hempfest</groupId>
 	    <artifactId>ClansAPI</artifactId>
-	    <version>1.2</version>
+	    <version>1.4</version>
 	</dependency>
 ```
 ### Importing with gradle
@@ -28,7 +28,7 @@ The official API & Wiki for ClansPro
 	}
 
 	dependencies {
-	        implementation 'com.github.Hempfest:ClansAPI:1.2'
+	        implementation 'com.github.Hempfest:ClansAPI:1.4'
 	}
 ```
 
