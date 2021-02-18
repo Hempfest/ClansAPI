@@ -44,6 +44,7 @@ _**Table of contents:**_
     - [Addon Creation](https://github.com/Hempfest/ClansAPI/wiki/Creating-an-addon-with-the-API)
     - [Clan Building](https://github.com/Hempfest/ClansAPI/wiki/Clan-Blueprints)
     - [Cooldowns](https://github.com/Hempfest/ClansAPI/wiki/Clan-Cooldowns)
+    - [Event List](https://github.com/Hempfest/ClansAPI/wiki/Event-List)
 ---
 - [**Official addons**]()
     - [Misc]()
