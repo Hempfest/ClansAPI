@@ -41,10 +41,14 @@ _**Table of contents:**_
         - [Config](https://github.com/Hempfest/ClansAPI/wiki/Config.yml)
         - [Messages](https://github.com/Hempfest/ClansAPI/wiki/Messages.yml)
 - [**Developers**](https://github.com/Hempfest/ClansAPI/wiki/Development)
+    - [Addon Creation](https://github.com/Hempfest/ClansAPI/wiki/Creating-an-addon-with-the-API)
     - [Clan Building](https://github.com/Hempfest/ClansAPI/wiki/Clan-Blueprints)
+    - [Cooldowns](https://github.com/Hempfest/ClansAPI/wiki/Clan-Cooldowns)
+    - [Event List](https://github.com/Hempfest/ClansAPI/wiki/Event-List)
 ---
 - [**Official addons**]()
     - [Misc]()
+    - [WorldGuard](https://github.com/Hempfest/ClansFlag/releases/tag/1.0)
 ---
 ![](https://i.imgur.com/9Tu9JAN.png)
 
