@@ -6,7 +6,7 @@
 
     <groupId>com.youtube.hempfest.clansapi</groupId>
     <artifactId>ClansAPI</artifactId>
-    <version>1.2</version>
+    <version>1.4</version>
     <packaging>jar</packaging>
 
     <name>ClansAPI</name>
@@ -77,7 +77,7 @@
         <dependency>
             <groupId>com.github.Hempfest</groupId>
             <artifactId>ClansPro</artifactId>
-            <version>1.0.5-R</version>
+            <version>1.0.8</version>
         </dependency>
 
     </dependencies>
