@@ -48,6 +48,7 @@ _**Table of contents:**_
 ---
 - [**Official addons**]()
     - [Misc]()
+    - [WorldGuard](https://github.com/Hempfest/ClansFlag/releases/tag/1.0)
 ---
 ![](https://i.imgur.com/9Tu9JAN.png)
 
