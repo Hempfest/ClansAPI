@@ -40,6 +40,7 @@ _**Table of contents:**_
     - [**Setup**]()
         - [Config](https://github.com/Hempfest/ClansAPI/wiki/Config.yml)
         - [Messages](https://github.com/Hempfest/ClansAPI/wiki/Messages.yml)
+        - [Permissions](https://github.com/Hempfest/ClansAPI/wiki/Permissions-Assistance)
 - [**Developers**](https://github.com/Hempfest/ClansAPI/wiki/Development)
     - [Addon Creation](https://github.com/Hempfest/ClansAPI/wiki/Creating-an-addon-with-the-API)
     - [Clan Building](https://github.com/Hempfest/ClansAPI/wiki/Clan-Blueprints)
