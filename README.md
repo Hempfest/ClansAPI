@@ -15,7 +15,7 @@ The official API & Wiki for ClansPro
   	<dependency>
 	    <groupId>com.github.Hempfest</groupId>
 	    <artifactId>ClansAPI</artifactId>
-	    <version>1.2</version>
+	    <version>1.4</version>
 	</dependency>
 ```
 ### Importing with gradle
@@ -28,7 +28,7 @@ The official API & Wiki for ClansPro
 	}
 
 	dependencies {
-	        implementation 'com.github.Hempfest:ClansAPI:1.2'
+	        implementation 'com.github.Hempfest:ClansAPI:1.4'
 	}
 ```
 
@@ -40,6 +40,7 @@ _**Table of contents:**_
     - [**Setup**]()
         - [Config](https://github.com/Hempfest/ClansAPI/wiki/Config.yml)
         - [Messages](https://github.com/Hempfest/ClansAPI/wiki/Messages.yml)
+        - [Permissions](https://github.com/Hempfest/ClansAPI/wiki/Permissions-Assistance)
 - [**Developers**](https://github.com/Hempfest/ClansAPI/wiki/Development)
     - [Addon Creation](https://github.com/Hempfest/ClansAPI/wiki/Creating-an-addon-with-the-API)
     - [Clan Building](https://github.com/Hempfest/ClansAPI/wiki/Clan-Blueprints)
